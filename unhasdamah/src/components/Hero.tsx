@@ -21,7 +21,7 @@ const Hero = () => {
           <p className="text-xl mb-8 text-gray-700">{t('hero.subtitle')}</p>
           <button 
             onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
-            className="bg-primary text-white px-8 py-3 rounded-full font-medium hover:bg-pink-600 transition-colors shadow-md hover:shadow-lg"
+            className="bg-primary text-white px-8 py-3 rounded-full font-medium hover:bg-pink-600 hover:text-white transition-colors shadow-md hover:shadow-lg focus:outline-none focus:ring-0"
           >
             {t('nav.services')}
           </button>

@@ -5,7 +5,7 @@ const ServiceCard = ({ title, description, imageUrl }: { title: string; descript
 
   return (
     <div className="bg-white rounded-lg shadow-xl overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
-      <div className="h-56 overflow-hidden">
+      <div className="h-72 overflow-hidden">
         <img
           src={imageUrl}
           alt={title}
@@ -15,7 +15,7 @@ const ServiceCard = ({ title, description, imageUrl }: { title: string; descript
       <div className="p-6">
         <h3 className="text-xl font-semibold text-primary mb-3">{title}</h3>
         <p className="text-gray-700">{description}</p>
-        <button className="mt-4 bg-primary text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-pink-600 transition-colors">
+        <button className="mt-4 bg-primary text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-pink-600 hover:text-white transition-colors focus:outline-none focus:ring-0 border-0 outline-0">
           {t('services.schedule')}
         </button>
       </div>
@@ -30,17 +30,17 @@ const Services = () => {
     {
       title: t('services.manicure.title'),
       description: t('services.manicure.description'),
-      imageUrl: "https://images.unsplash.com/photo-1604654894611-6973b7069ce9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+      imageUrl: "/UnhaEsmaltacaoTradicional.jpg"
     },
     {
       title: t('services.gel.title'),
       description: t('services.gel.description'),
-      imageUrl: "https://images.unsplash.com/photo-1632345031435-8727f6897d53?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+      imageUrl: "/UnhaAlongamentoGelTips.jpg"
     },
     {
       title: t('services.russian.title'),
       description: t('services.russian.description'),
-      imageUrl: "https://images.unsplash.com/photo-1610992012089-9496ee5cec04?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+      imageUrl: "/UnhaEsmaltacaoRusso.jpg"
     }
   ];
 
@@ -51,7 +51,7 @@ const Services = () => {
         <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
           {t('services.intro')}
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
           {services.map((service, index) => (
             <ServiceCard
               key={index}

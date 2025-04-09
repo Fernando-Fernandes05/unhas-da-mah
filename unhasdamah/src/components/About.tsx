@@ -11,12 +11,12 @@ const About = () => {
           {t('about.intro')}
         </p>
         <div className="flex flex-col md:flex-row items-center gap-12">
-          <div className="md:w-1/2">
-            <div className="rounded-lg shadow-xl overflow-hidden">
+          <div className="md:w-1/2 flex justify-center">
+            <div className="rounded-lg shadow-xl overflow-hidden h-[350px] w-[280px] bg-pink-50">
               <img 
-                src="https://images.unsplash.com/photo-1519014816548-bf5fe059798b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" 
+                src="/NailDesignerMah.jpg" 
                 alt="Nail artist"
-                className="w-full h-auto object-cover"
+                className="w-full h-full object-cover object-top"
               />
             </div>
           </div>
