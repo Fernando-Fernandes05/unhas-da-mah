@@ -8,7 +8,7 @@ const About = () => {
       <div className="container mx-auto">
         <h2 className="text-3xl font-bold text-primary text-center mb-3">{t('about.title')}</h2>
         <p className="text-center text-gray-600 mb-12 max-w-2xl mx-auto">
-          Conheça um pouco sobre minha trajetória e paixão pelo mundo das unhas.
+          {t('about.intro')}
         </p>
         <div className="flex flex-col md:flex-row items-center gap-12">
           <div className="md:w-1/2">
@@ -27,11 +27,11 @@ const About = () => {
             <div className="mt-8 grid grid-cols-2 gap-4">
               <div className="bg-pink-50 p-4 rounded-lg text-center">
                 <p className="text-3xl font-bold text-primary">5+</p>
-                <p className="text-gray-700">Anos de experiência</p>
+                <p className="text-gray-700">{t('about.experience')}</p>
               </div>
               <div className="bg-pink-50 p-4 rounded-lg text-center">
                 <p className="text-3xl font-bold text-primary">100+</p>
-                <p className="text-gray-700">Clientes satisfeitos</p>
+                <p className="text-gray-700">{t('about.clients')}</p>
               </div>
             </div>
           </div>

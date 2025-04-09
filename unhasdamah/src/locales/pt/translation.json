@@ -10,10 +10,15 @@
   },
   "about": {
     "title": "Sobre Mim",
-    "description": "Olá, sou a Mah e sou especialista em designs de unhas. Com mais de 5 anos de experiência, ofereço serviços de alta qualidade para deixar suas unhas lindas e saudáveis."
+    "description": "Olá, sou a Mah e sou especialista em designs de unhas. Com mais de 5 anos de experiência, ofereço serviços de alta qualidade para deixar suas unhas lindas e saudáveis.",
+    "intro": "Conheça um pouco sobre minha trajetória e paixão pelo mundo das unhas.",
+    "experience": "Anos de experiência",
+    "clients": "Clientes satisfeitos"
   },
   "services": {
     "title": "Serviços",
+    "intro": "Conheça nossos principais serviços e escolha o que melhor atende suas necessidades.",
+    "schedule": "Agendar",
     "manicure": {
       "title": "Manicure e Pedicure",
       "description": "Tratamento completo para suas unhas das mãos e pés, incluindo remoção de cutículas, lixamento, polimento e pintura."
@@ -29,10 +34,18 @@
   },
   "location": {
     "title": "Localização",
-    "address": "Rua Rubim César, 653 - Vila São Jorge, São Vicente - São Paulo",
-    "hours": "Segunda a Sábado: 09:00 - 19:00"
+    "address": "Rua Rubim César, 653 - Vila São Jorge, São Vicente - SP",
+    "hours": "Segunda a Sábado: 09:00 - 19:00",
+    "intro": "Visite nosso espaço e desfrute de um ambiente aconchegante e profissional.",
+    "maps": "Ver no Google Maps"
+  },
+  "contact": {
+    "title": "Contato",
+    "phone": "(13) 99753-1709",
+    "email": "ma.tronoloni@gmail.com"
   },
   "footer": {
-    "rights": "© 2024 UnhasDaMah. Todos os direitos reservados."
+    "rights": "Todos os direitos reservados.",
+    "navigation": "Navegação"
   }
 } 

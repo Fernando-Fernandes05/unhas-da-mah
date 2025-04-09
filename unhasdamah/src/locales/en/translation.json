@@ -10,10 +10,15 @@
   },
   "about": {
     "title": "About Me",
-    "description": "Hello, I'm Mah and I'm a nail design specialist. With over 5 years of experience, I offer high-quality services to make your nails beautiful and healthy."
+    "description": "Hello, I'm Mah and I'm a nail design specialist. With over 5 years of experience, I offer high-quality services to make your nails beautiful and healthy.",
+    "intro": "Learn about my journey and passion for the world of nails.",
+    "experience": "Years of experience",
+    "clients": "Satisfied clients"
   },
   "services": {
     "title": "Services",
+    "intro": "Discover our main services and choose what best suits your needs.",
+    "schedule": "Schedule",
     "manicure": {
       "title": "Manicure and Pedicure",
       "description": "Complete treatment for your hand and foot nails, including cuticle removal, filing, polishing and painting."
@@ -29,10 +34,18 @@
   },
   "location": {
     "title": "Location",
-    "address": "Rua Rubim César, 653 - Vila São Jorge, São Vicente - São Paulo",
-    "hours": "Monday to Saturday: 09:00 AM - 07:00 PM"
+    "address": "Rubim César Street, 653 - Vila São Jorge, São Vicente - SP",
+    "hours": "Monday to Saturday: 09:00 AM - 07:00 PM",
+    "intro": "Visit our space and enjoy a cozy and professional environment.",
+    "maps": "View on Google Maps"
+  },
+  "contact": {
+    "title": "Contact",
+    "phone": "(13) 99753-1709",
+    "email": "ma.tronoloni@gmail.com"
   },
   "footer": {
-    "rights": "© 2024 UnhasDaMah. All rights reserved."
+    "rights": "All rights reserved.",
+    "navigation": "Navigation"
   }
 } 
