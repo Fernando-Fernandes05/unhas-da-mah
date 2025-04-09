@@ -26,11 +26,11 @@ const About = () => {
             </p>
             <div className="mt-8 grid grid-cols-2 gap-4">
               <div className="bg-pink-50 p-4 rounded-lg text-center">
-                <p className="text-3xl font-bold text-primary">5+</p>
+                <p className="text-3xl font-bold text-primary">2+</p>
                 <p className="text-gray-700">{t('about.experience')}</p>
               </div>
               <div className="bg-pink-50 p-4 rounded-lg text-center">
-                <p className="text-3xl font-bold text-primary">100+</p>
+                <p className="text-3xl font-bold text-primary">20+</p>
                 <p className="text-gray-700">{t('about.clients')}</p>
               </div>
             </div>

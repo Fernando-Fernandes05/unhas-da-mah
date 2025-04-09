@@ -38,9 +38,9 @@ const Services = () => {
       imageUrl: "/UnhaAlongamentoGelTips.jpg"
     },
     {
-      title: t('services.russian.title'),
-      description: t('services.russian.description'),
-      imageUrl: "/UnhaEsmaltacaoRusso.jpg"
+      title: t('services.gelcoating.title'),
+      description: t('services.gelcoating.description'),
+      imageUrl: "/UnhaBanhoGel.jpg"
     }
   ];
 
