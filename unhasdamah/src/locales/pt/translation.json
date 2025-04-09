@@ -1,0 +1,38 @@
+{
+  "nav": {
+    "about": "Sobre Mim",
+    "services": "Serviços",
+    "location": "Localização"
+  },
+  "hero": {
+    "title": "UnhasDaMah",
+    "subtitle": "Seu espaço de beleza para unhas perfeitas"
+  },
+  "about": {
+    "title": "Sobre Mim",
+    "description": "Olá, sou a Mah e sou especialista em designs de unhas. Com mais de 5 anos de experiência, ofereço serviços de alta qualidade para deixar suas unhas lindas e saudáveis."
+  },
+  "services": {
+    "title": "Serviços",
+    "manicure": {
+      "title": "Manicure e Pedicure",
+      "description": "Tratamento completo para suas unhas das mãos e pés, incluindo remoção de cutículas, lixamento, polimento e pintura."
+    },
+    "gel": {
+      "title": "Alongamento em Gel na Tips",
+      "description": "Alongamento de unhas utilizando tips e gel para criar unhas duradouras e naturais."
+    },
+    "russian": {
+      "title": "Molde Russo",
+      "description": "Técnica avançada de alongamento que cria unhas elegantes e resistentes através do método russo."
+    }
+  },
+  "location": {
+    "title": "Localização",
+    "address": "Rua Exemplo, 123 - Bairro, Cidade - Estado",
+    "hours": "Segunda a Sábado: 09:00 - 19:00"
+  },
+  "footer": {
+    "rights": "© 2024 UnhasDaMah. Todos os direitos reservados."
+  }
+} 

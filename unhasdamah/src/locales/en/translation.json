@@ -1,0 +1,38 @@
+{
+  "nav": {
+    "about": "About Me",
+    "services": "Services",
+    "location": "Location"
+  },
+  "hero": {
+    "title": "UnhasDaMah",
+    "subtitle": "Your beauty space for perfect nails"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "Hello, I'm Mah and I'm a nail design specialist. With over 5 years of experience, I offer high-quality services to make your nails beautiful and healthy."
+  },
+  "services": {
+    "title": "Services",
+    "manicure": {
+      "title": "Manicure and Pedicure",
+      "description": "Complete treatment for your hand and foot nails, including cuticle removal, filing, polishing and painting."
+    },
+    "gel": {
+      "title": "Gel Extension on Tips",
+      "description": "Nail extension using tips and gel to create long-lasting and natural-looking nails."
+    },
+    "russian": {
+      "title": "Russian Method",
+      "description": "Advanced extension technique that creates elegant and resistant nails using the Russian method."
+    }
+  },
+  "location": {
+    "title": "Location",
+    "address": "Example Street, 123 - Neighborhood, City - State",
+    "hours": "Monday to Saturday: 09:00 AM - 07:00 PM"
+  },
+  "footer": {
+    "rights": "© 2024 UnhasDaMah. All rights reserved."
+  }
+} 
