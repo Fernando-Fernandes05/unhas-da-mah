@@ -68,7 +68,7 @@ const Header = () => {
           <select 
             value={currentLanguage} 
             onChange={changeLanguage}
-            className="bg-white text-primary px-3 py-2 rounded-full text-sm font-medium cursor-pointer border-2 border-white"
+            className="bg-white text-primary px-3 py-2 rounded-full text-sm font-medium cursor-pointer border-2 border-white focus:outline-none focus:ring-0 focus:border-white"
           >
             <option value="pt">Português</option>
             <option value="en">English</option>
