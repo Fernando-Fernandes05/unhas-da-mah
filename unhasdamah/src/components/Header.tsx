@@ -47,19 +47,19 @@ const Header = () => {
         <nav className="hidden md:flex space-x-10">
           <button 
             onClick={() => scrollToSection('about')} 
-            className="text-white font-medium text-lg hover:text-pink-200 transition-colors cursor-pointer"
+            className="text-white font-medium text-lg hover:text-pink-200 transition-colors cursor-pointer bg-transparent border-none focus:outline-none"
           >
             {t('nav.about')}
           </button>
           <button 
             onClick={() => scrollToSection('services')} 
-            className="text-white font-medium text-lg hover:text-pink-200 transition-colors cursor-pointer"
+            className="text-white font-medium text-lg hover:text-pink-200 transition-colors cursor-pointer bg-transparent border-none focus:outline-none"
           >
             {t('nav.services')}
           </button>
           <button 
             onClick={() => scrollToSection('location')} 
-            className="text-white font-medium text-lg hover:text-pink-200 transition-colors cursor-pointer"
+            className="text-white font-medium text-lg hover:text-pink-200 transition-colors cursor-pointer bg-transparent border-none focus:outline-none"
           >
             {t('nav.location')}
           </button>
@@ -87,19 +87,19 @@ const Header = () => {
           <div className="container mx-auto px-4 py-4 flex flex-col space-y-4">
             <button 
               onClick={() => scrollToSection('about')} 
-              className="text-white font-medium text-lg hover:text-pink-200 transition-colors text-left cursor-pointer"
+              className="text-white font-medium text-lg hover:text-pink-200 transition-colors text-left cursor-pointer bg-transparent border-none focus:outline-none"
             >
               {t('nav.about')}
             </button>
             <button 
               onClick={() => scrollToSection('services')} 
-              className="text-white font-medium text-lg hover:text-pink-200 transition-colors text-left cursor-pointer"
+              className="text-white font-medium text-lg hover:text-pink-200 transition-colors text-left cursor-pointer bg-transparent border-none focus:outline-none"
             >
               {t('nav.services')}
             </button>
             <button 
               onClick={() => scrollToSection('location')} 
-              className="text-white font-medium text-lg hover:text-pink-200 transition-colors text-left cursor-pointer"
+              className="text-white font-medium text-lg hover:text-pink-200 transition-colors text-left cursor-pointer bg-transparent border-none focus:outline-none"
             >
               {t('nav.location')}
             </button>
