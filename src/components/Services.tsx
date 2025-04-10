@@ -30,17 +30,17 @@ const Services = () => {
     {
       title: t('services.manicure.title'),
       description: t('services.manicure.description'),
-      imageUrl: "/UnhaEsmaltacaoTradicional.jpg"
+      imageUrl: "/unhas-da-mah/UnhaEsmaltacaoTradicional.jpg"
     },
     {
       title: t('services.gel.title'),
       description: t('services.gel.description'),
-      imageUrl: "/UnhaAlongamentoGelTips.jpg"
+      imageUrl: "/unhas-da-mah/UnhaAlongamentoGelTips.jpg"
     },
     {
       title: t('services.gelcoating.title'),
       description: t('services.gelcoating.description'),
-      imageUrl: "/UnhaBanhoGel.jpg"
+      imageUrl: "/unhas-da-mah/UnhaBanhoGel.jpg"
     }
   ];
 

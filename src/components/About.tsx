@@ -14,7 +14,7 @@ const About = () => {
           <div className="md:w-1/2 flex justify-center">
             <div className="rounded-lg shadow-xl overflow-hidden h-[350px] w-[280px] bg-pink-50">
               <img 
-                src="/NailDesignerMah.jpg" 
+                src="/unhas-da-mah/NailDesignerMah.jpg" 
                 alt="Nail artist"
                 className="w-full h-full object-cover object-top"
               />
@@ -24,14 +24,10 @@ const About = () => {
             <p className="text-lg leading-relaxed text-gray-700">
               {t('about.description')}
             </p>
-            <div className="mt-8 grid grid-cols-2 gap-4">
-              <div className="bg-pink-50 p-4 rounded-lg text-center">
+            <div className="mt-8 flex justify-center">
+              <div className="bg-pink-50 px-8 py-4 rounded-lg text-center">
                 <p className="text-3xl font-bold text-primary">2+</p>
                 <p className="text-gray-700">{t('about.experience')}</p>
-              </div>
-              <div className="bg-pink-50 p-4 rounded-lg text-center">
-                <p className="text-3xl font-bold text-primary">20+</p>
-                <p className="text-gray-700">{t('about.clients')}</p>
               </div>
             </div>
           </div>
