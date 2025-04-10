@@ -2,6 +2,7 @@ import { useTranslation } from 'react-i18next';
 
 const ServiceCard = ({ title, description, imageUrl }: { title: string; description: string; imageUrl: string }) => {
   const { t } = useTranslation();
+  const whatsappLink = "https://api.whatsapp.com/send?phone=5513997531709&text=Ol%C3%A1%2C+gostaria+de+marcar+um+hor%C3%A1rio%21%F0%9F%A5%B0";
 
   return (
     <div className="bg-white rounded-lg shadow-xl overflow-hidden transition-transform duration-300 hover:scale-105 hover:shadow-2xl">
@@ -15,9 +16,14 @@ const ServiceCard = ({ title, description, imageUrl }: { title: string; descript
       <div className="p-6">
         <h3 className="text-xl font-semibold text-primary mb-3">{title}</h3>
         <p className="text-gray-700">{description}</p>
-        <button className="mt-4 bg-primary text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-pink-600 hover:text-white transition-colors focus:outline-none focus:ring-0 border-0 outline-0">
+        <a 
+          href={whatsappLink} 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="mt-4 bg-primary text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-pink-600 hover:text-white transition-colors focus:outline-none focus:ring-0 border-0 outline-0 inline-block no-underline"
+        >
           {t('services.schedule')}
-        </button>
+        </a>
       </div>
     </div>
   );
