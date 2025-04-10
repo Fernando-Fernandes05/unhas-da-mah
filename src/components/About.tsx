@@ -14,7 +14,7 @@ const About = () => {
           <div className="md:w-1/2 flex justify-center">
             <div className="rounded-lg shadow-xl overflow-hidden h-[350px] w-[280px] bg-pink-50">
               <img 
-                src="/unhas-da-mah/NailDesignerMah.jpg" 
+                src="/NailDesignerMah.jpg" 
                 alt="Nail artist"
                 className="w-full h-full object-cover object-top"
               />
