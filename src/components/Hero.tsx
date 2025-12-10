@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import fotoUnhaHero from "../assets/fotoUnhaHero.jpeg";
 
 const Hero = () => {
   const { t } = useTranslation();
@@ -8,8 +9,9 @@ const Hero = () => {
       {/* Imagem de fundo com overlay */}
       <div className="absolute inset-0 bg-cover bg-center" 
            style={{ 
-             backgroundImage: "url('https://images.unsplash.com/photo-1519014816548-bf5fe059798b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80')",
-             filter: "brightness(0.8)"
+             backgroundImage: `url(${fotoUnhaHero})`,
+             backgroundPosition: "50% 60%",
+             filter: "brightness(0.9)"
            }}>
         <div className="absolute inset-0 bg-primary opacity-20"></div>
       </div>

@@ -36,7 +36,7 @@ const Services = () => {
     {
       title: t('services.manicure.title'),
       description: t('services.manicure.description'),
-      imageUrl: "/UnhaEsmaltacaoTradicional.jpg"
+      imageUrl: "/UnhaEsmaltacaoTradicional.png"
     },
     {
       title: t('services.gel.title'),
@@ -47,6 +47,16 @@ const Services = () => {
       title: t('services.gelcoating.title'),
       description: t('services.gelcoating.description'),
       imageUrl: "/UnhaBanhoGel.jpg"
+    },
+    {
+      title: t('services.geloverlay.title'),
+      description: t('services.geloverlay.description'),
+      imageUrl: "/UnhaBlindagem.jpeg"
+    },
+    {
+      title: t('services.footspa.title'),
+      description: t('services.footspa.description'),
+      imageUrl: "/FotoSpaPes.jpeg"
     }
   ];
 

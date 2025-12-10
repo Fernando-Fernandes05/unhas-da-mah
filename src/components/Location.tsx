@@ -38,7 +38,7 @@ const Location = () => {
             
             <div className="mt-8">
               <a 
-                href="https://maps.app.goo.gl/CeLQ6C329UBmaxfJ7" 
+                href="https://maps.app.goo.gl/Tk8mTdefiYestspg8" 
                 target="_blank" 
                 rel="noopener noreferrer" 
                 className="bg-primary text-white px-6 py-3 rounded-full inline-block hover:bg-pink-600 hover:text-white transition-colors no-underline"
@@ -49,7 +49,7 @@ const Location = () => {
           </div>
           <div className="md:w-1/2 h-64 md:h-auto rounded-lg overflow-hidden shadow-xl">
             <iframe 
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3646.2098855382337!2d-46.3705649!3d-23.9530172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce1ca85ee0e7f9%3A0x6f9b534aebcbf75a!2sR.%20Rubim%20C%C3%A9sar%2C%20653%20-%20Vila%20Sao%20Jorge%2C%20S%C3%A3o%20Vicente%20-%20SP%2C%2011380-060!5e0!3m2!1spt-BR!2sbr!4v1744223955787!5m2!1spt-BR!2sbr" 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1823.012599307268!2d-46.37697377942474!3d-23.959549067852752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce1def57c62917%3A0x8d61edf7ae635902!2sAndreia%20La%20Coiffeur!5e0!3m2!1spt-BR!2sbr!4v1765346169930!5m2!1spt-BR!2sbr" 
               width="100%" 
               height="100%" 
               style={{ border: 0 }} 

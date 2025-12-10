@@ -10,7 +10,7 @@
   },
   "about": {
     "title": "Sobre Mim",
-    "description": "Olá, sou a Mah e sou especialista em designs de unhas. Com mais de 2 anos de experiência, ofereço serviços de alta qualidade para deixar suas unhas lindas e saudáveis.",
+    "description": "Olá! Eu sou a Mah, nail designer apaixonada pelo que faço e especialista em transformar unhas em verdadeiras obras de arte. Com apenas 18 anos e 2 anos de experiência na área, já tive a oportunidade de atender diversas clientes, sempre buscando entregar qualidade, beleza e saúde para as unhas. Sou uma profissional extrovertida, comunicativa, focada e extremamente caprichosa, características que refletem diretamente em cada atendimento. Aqui você encontra um atendimento profissional, produtos de qualidade e as melhores técnicas do mercado, tudo para valorizar ainda mais sua autoestima. Será um prazer cuidar das suas unhas! 💅✨",
     "intro": "Conheça um pouco sobre minha trajetória e paixão pelo mundo das unhas.",
     "experience": "Anos de experiência",
     "clients": "Clientes satisfeitos"
@@ -30,12 +30,20 @@
     "gelcoating": {
       "title": "Banho de Gel",
       "description": "Aplicação de camada de gel sobre a unha natural, proporcionando brilho, resistência e durabilidade, sem aumentar o comprimento."
+    },
+    "geloverlay": {
+      "title": "Blingadem",
+      "description": "Aplicação de uma camada protetora sobre a unha natural, fortalecendo, nivelando e prevenindo quebras, com acabamento natural e alta durabilidade."
+    },
+    "footspa": {
+      "title": "Spá dos Pés",
+      "description": "Tratamento relaxante e revitalizante para os pés, que promove hidratação profunda, esfoliação e sensação de bem-estar."
     }
   },
   "location": {
     "title": "Localização",
-    "address": "Rua Rubim César, 653 - Vila São Jorge, São Vicente - SP",
-    "hours": "Segunda a Sábado: 09:00 - 19:00",
+    "address": "Rua José do Patrocínio, 85 - Vila São Jorge, São Vicente - SP",
+    "hours": "Terça a Sábado: 10:00 - 20:00",
     "intro": "Visite nosso espaço e desfrute de um ambiente aconchegante e profissional.",
     "maps": "Ver no Google Maps"
   },

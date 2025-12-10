@@ -10,7 +10,7 @@
   },
   "about": {
     "title": "About Me",
-    "description": "Hello, I'm Mah and I'm a nail design specialist. With over 2 years of experience, I offer high-quality services to make your nails beautiful and healthy.",
+    "description": "Hello! I’m Mah, a nail designer passionate about what I do and specialized in turning nails into true works of art. At just 18 years old and with 2 years of experience in the field, I have already had the opportunity to serve many clients, always striving to deliver quality, beauty, and healthy nails. I am an outgoing, communicative, focused, and extremely detail-oriented professional, qualities that are reflected in every appointment. I work with great love, dedication, and attention to detail, because I truly believe that every client is unique and deserves flawless results. Here, you will find professional service, high-quality products, and the best techniques on the market, all designed to enhance your self-esteem even more. It will be a pleasure to take care of your nails! 💅✨",
     "intro": "Learn about my journey and passion for the world of nails.",
     "experience": "Years of experience",
     "clients": "Satisfied clients"
@@ -30,12 +30,20 @@
     "gelcoating": {
       "title": "Gel Coating",
       "description": "Application of a gel layer over natural nails, providing shine, strength and durability, without increasing the length."
+    },
+    "geloverlay": {
+      "title": "Gel Overlay",
+      "description": "Application of a protective layer over the natural nail, strengthening, leveling, and preventing breakage, with a natural finish and high durability."
+    },
+    "footspa": {
+      "title": "Foot Spa",
+      "description": "A relaxing and revitalizing foot treatment that promotes deep hydration, exfoliation, and an overall sense of well-being."
     }
   },
   "location": {
     "title": "Location",
-    "address": "Rubim César Street, 653 - Vila São Jorge, São Vicente - SP",
-    "hours": "Monday to Saturday: 09:00 AM - 07:00 PM",
+    "address": "José do Patrocínio Street, 83 - Vila São Jorge, São Vicente - SP",
+    "hours": "Tuesday to Saturday: 10:00 AM - 08:00 PM",
     "intro": "Visit our space and enjoy a cozy and professional environment.",
     "maps": "View on Google Maps"
   },
